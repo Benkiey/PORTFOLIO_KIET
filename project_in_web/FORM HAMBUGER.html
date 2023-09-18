@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>ANNIE'S BURGERS</title>
+  <style>
+    .container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh; /* Chiều cao của toàn bộ trang */
+    }
+
+    .rounded-box {
+      width: 500px;
+      height: 700px;
+      background-color: white;
+      border-radius: 20px; /* Độ cong của góc */
+      padding: 10px;
+    }
+
+    h1, h2, p{
+      text-align: center;
+    }
+  </style>
+</head>
+
+  <body style="background-color: aqua;">
+    <div class="container">
+      <div class="rounded-box">
+        <form action="">
+          <h1>ANNIE'S BURGERS<hr></h1>
+          <h2>Create a burger!</h2>
+          <p>What type of protein would you like? <input type="text"></p>
+          <p>How many patties would you like? <input type="text"></p>
+          <p>How do you want your patty cooked</p>
+          <p>Rare <input type="range">Well-Done</p>
+          <p>What toppings would you like?</p>
+          <p><input type="checkbox">Lettuce <input type="checkbox">Tomato <input type="Checkbox">Onion</p>
+          <p>Would you like to add cheese?</p>
+          <p><input type="radio">Yes <input type="radio">No</p>
+          <p>What type of bun would you like? 
+            <select class="form-select" aria-label="Default select example">
+                <option selected>Sesame</option>
+                <option value="1">One</option>
+                <option value="2">Two</option>
+                <option value="3">Three</option>
+            </select></p>
+          <p>What type of sauce would you like? <input type="text"></p>
+          <p>Anything else you want to add?</p>
+          <p>
+            <textarea name="" id="" cols="30" rows="3"></textarea><br>
+            <input type="submit">
+          </p>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
